@@ -1,8 +1,9 @@
-def condition(y):
-    if y > 50:
-        print("success")
+def divisibility(p):
+    if p % 2 <= 0:
+        print("even")
     else:
-        print("fail")
+        print("odd")
 
 
-condition(47)
+number = divisibility(11)
+print(number)
